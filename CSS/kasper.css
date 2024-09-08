@@ -428,12 +428,13 @@ header .form i {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 60px;
+  max-width: 100%;
+  margin: 0 auto 60px;
 }
 
 .portfolio .shuffle li {
   list-style: none;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 1px;
   cursor: pointer;
 }
@@ -1158,8 +1159,5 @@ header .form i {
   color: var(--mainColor);
   font-weight: 600;
 }
-
-
-
 
 /* end footer */
